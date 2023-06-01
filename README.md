@@ -19,6 +19,6 @@ The Web Piano App is built using the following technologies:
 
 The piano sounds used in the app were exported from the **Sytrus plugin** in FL Studio using the Realistic 2 preset. 
 
-##License
+## License
 
 This is licensed under the MIT License
