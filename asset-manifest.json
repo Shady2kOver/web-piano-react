@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/web-piano-react/static/css/main.46a794b3.css",
+    "main.js": "/web-piano-react/static/js/main.31ec4f5d.js",
+    "static/media/G.wav": "/web-piano-react/static/media/G.f3569a2d6fc5e1ee4e97.wav",
+    "static/media/Dsharp.wav": "/web-piano-react/static/media/Dsharp.a1a63967b54612eb83cc.wav",
+    "static/media/Csharp.wav": "/web-piano-react/static/media/Csharp.5eed1ea6edffc0adef26.wav",
+    "static/media/E.wav": "/web-piano-react/static/media/E.e68ef1dfd21ac375ea1f.wav",
+    "static/media/Asharp.wav": "/web-piano-react/static/media/Asharp.51f367021feee96598c3.wav",
+    "static/media/C.wav": "/web-piano-react/static/media/C.7a3df096225e549dcdb8.wav",
+    "static/media/Gsharp.wav": "/web-piano-react/static/media/Gsharp.b5723c32072f631c9344.wav",
+    "static/media/B.wav": "/web-piano-react/static/media/B.e7f8aac45dbc1ec62e55.wav",
+    "static/media/F.wav": "/web-piano-react/static/media/F.bd0ce2ea48acb07ba40d.wav",
+    "static/media/A.wav": "/web-piano-react/static/media/A.042c827f8af32939f8f5.wav",
+    "static/media/D.wav": "/web-piano-react/static/media/D.6ce675d65e2a490bc284.wav",
+    "static/media/Fsharp.wav": "/web-piano-react/static/media/Fsharp.2ab38dd2475ea6c28ff7.wav",
+    "index.html": "/web-piano-react/index.html",
+    "main.46a794b3.css.map": "/web-piano-react/static/css/main.46a794b3.css.map",
+    "main.31ec4f5d.js.map": "/web-piano-react/static/js/main.31ec4f5d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46a794b3.css",
+    "static/js/main.31ec4f5d.js"
+  ]
+}
