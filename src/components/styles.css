@@ -1,0 +1,126 @@
+body {
+
+    background-color: rgb(27, 27, 27);
+}
+
+h2 {
+
+    color: rgb(232, 232, 234); /* Set the text color to blue */
+    font-family: "Montserrat", sans-serif; /* Replace "Montserrat" with the desired font name */  ;
+    text-align: center;
+    font-size: xx-large;
+    letter-spacing: 8px;
+    margin-top: 10%;
+    text-shadow: 0 2.8px 10px rgb(0, 0, 0);
+}
+
+
+.container {
+    background-color: #0e0c0c;
+    color: #eee;
+    align-items: center;
+    border-radius: 10px;
+    margin: 30%;
+    margin-top: -1%;
+    padding-top: 1%;
+    box-shadow: ();
+    box-shadow: 0 2.8px 10px rgb(0, 0, 0);
+   
+  }
+
+
+  .controls {
+    font-family: "Montserrat", sans-serif; /* Replace "Montserrat" with the desired font name */
+    margin-left: 30%;
+    font-size: 24px; /* Adjust the font size as needed */
+    display: flex;
+  }
+
+  .slider {
+    margin-top: 2%;
+    margin-left: 10px;
+  }
+
+
+  .keys {
+    list-style: none; /* Removes the bullets from the unordered list */
+    display: flex; /* Arranges the keys horizontally */
+    justify-content: center; /* Centers the keys horizontally within the container */
+    margin: 0;
+    padding: 5%;
+    
+  }
+  .key.white {
+    /* Add your specific styles for the keys here */
+    /* For example: */
+    background: linear-gradient(white 90%, lightgrey);
+    width: 70px;
+    height: 200px; /* Adjust the height as needed */
+    margin-right: 5px; 
+    z-index: 1;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 2.8px 10px rgb(0, 0, 0);
+  
+  }
+
+  .key.white.down {
+    filter: brightness(0.8);
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.3);
+
+  }
+  
+  .key.black {
+    /* Add your specific styles for the keys here */
+    /* For example: */
+    position: relative;
+    width: 50px;
+    height: 100px;
+    background: linear-gradient(#1f1f1f 2%, #000000);
+    border-radius: 3px;
+    margin: 0px -25px 0px -25px;
+    z-index: 2; /* Ensure black keys are above white keys */
+    box-shadow: 0 2px 5px rgb(55, 55, 55);
+  
+  }
+  
+  .key.black.down {
+    filter: brightness(0.8);
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.3);
+
+  }
+    
+/********** Range Input Styles **********/
+/*Range Reset*/
+input[type="range"] {
+    -webkit-appearance: none;
+     appearance: none;
+     background: transparent;
+     cursor: pointer;
+     width: 10rem;
+ }
+ 
+ /* Removes default focus */
+ input[type="range"]:focus {
+   outline: none;
+ }
+ 
+ /***** Chrome, Safari, Opera and Edge Chromium styles *****/
+ /* slider track */
+ input[type="range"]::-webkit-slider-runnable-track {
+    background-color: #bbbbbb;
+    border-radius: 0.5rem;
+    height: 0.8rem;  
+ }
+ 
+ /* slider thumb */
+ input[type="range"]::-webkit-slider-thumb {
+   -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    margin-top: -12px; /* Centers thumb on the track */
+ 
+    /*custom styles*/
+    background-color: #272727;
+    height: 2rem;
+    width: 1rem;
+ }
